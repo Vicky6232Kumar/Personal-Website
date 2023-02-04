@@ -1,0 +1,572 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="description" content="A personal freelanced portfolio. A full time student with part time Freelancer. Domain of freelancing is website development and web pages design with quality code. Strong creativity and analytical skills. ">
+  <meta name="keywords" content="HTML, CSS, JavaScript, React, Node, Express, Wed Developer, Web Designer">
+  <meta name="author" content="Vicky Jaiswal">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" type="image/png" href="images/favicon.png">
+  <link rel="stylesheet" href="/style.css" />
+  <script src="https://kit.fontawesome.com/aa02a5aed9.js" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.6.1.js"></script>
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+  <title>Vicky Jaiswal | Portfolio</title>
+</head>
+
+<body>
+  <div id="preloader" class="spinner"></div>
+  <section >
+
+    <!-- Home & Navigation Bar -->
+
+    <div class="navbar fixed w-full flex justify-between md:justify-evenly md:items-center md:pt-4 z-10 duration-200">
+
+      <!-- Logo -->
+
+      <div class="logo w-28 mt-4 sm:ml-4 md:ml-0 md:mt-0 lg:mr-96 transition-all">
+        <a href="#home"> <img src="images/logo.png" alt="" /></a>
+      </div>
+
+      <!-- Hamberger -->
+
+      <div id="Hamberger" class="hamberger flex flex-col justify-center h-8 mt-10 mr-4 cursor-pointer z-50 md:hidden "
+        >
+        <div id="hamberger-1" class="bg-white w-5 h-[0.2rem] mb-[0.3rem] duration-300"></div>
+        <div id="hamberger-2" class="bg-white w-8 h-[0.2rem] duration-300"></div>
+        <div id="hamberger-3" class="bg-white w-5 h-[0.2rem] mt-[0.3rem] duration-300"></div>
+      </div>
+
+      <!-- Navbar Category -->
+
+      <div
+        class="navbarCategory absolute right-0  pt-36 px-12 h-[100vh] w-72 text-2xl md:text-xl bg-[#373737] text-white font-[Poppins] md:font-sans md:font-light translate-x-full duration-500 md:flex md:bg-inherit md:h-fit md:w-min md:static md:p-0 md:translate-x-0 md:transition-none">
+
+        <a href="#about">
+          <div
+            class="py-5 px-4 md:p-4  m-1 border-t border-[#d8d5d51c] md:border-none md:hover:-translate-y-1 duration-150">
+            About
+          </div>
+        </a>
+        <a href="#skills">
+          <div
+            class="py-5 px-4 md:p-4  m-1 border-t border-[#d8d5d51c] md:border-none md:hover:-translate-y-1 duration-150">
+            Skills</div>
+        </a>
+        <a href="#work">
+          <div
+            class="py-5 px-4 md:p-4 m-1 border-t border-[#d8d5d51c] md:border-none md:hover:-translate-y-1 duration-150">
+            Work</div>
+        </a>
+        <a href="#service">
+          <div
+            class="py-5 px-4 md:p-4 m-1 border-t border-[#d8d5d51c] md:border-none md:hover:-translate-y-1 duration-150">
+            Services</div>
+        </a>
+        <a href="#contacts">
+          <div
+            class="py-5 px-4 md:p-4 m-1 border-y border-[#d8d5d51c] md:border-none md:hover:-translate-y-1 duration-150">
+            Contacts</div>
+        </a>
+
+      </div>
+
+    </div>
+
+    <!-- Landing Page -->
+
+    <div id="home" class="overflow-hidden">
+
+      <div class=" sm:h-[90vh] bg-gradient-to-r from-purple-500 to-pink-500 md:h-[100vh]">
+        <img class="sm:h-full" src="/images/landing_page_img.png" alt="image" />
+      </div>
+
+      <div
+        class=" text-white -mt-[6.75rem] sm:-mt-[8.25rem] md:-mt-[9.75rem] lg:-mt-[11.75rem] relative -top-[1vh] -right-[32vw]  md:-top-[45vh] md:-right-[61vw] lg:-right-[54vw]  "
+        style="text-shadow: 1px 1px black;">
+        <div  class="font-black text-4xl  sm:text-5xl md:text-6xl lg:text-7xl">Hello I'm</div>
+        <div id="text" class="font-black text-4xl  sm:text-5xl md:text-6xl lg:text-7xl"></div>
+        <div  class="pt-2 text-sm sm:text-xl lg:pt-4">& I'm A Freelancer</div>
+      </div>
+
+    </div>
+
+    <!-- About Section and All -->
+
+    <section id="about" class="pt-32 bg-[#d9d5cf52] md:bg-[url('/images/about_bg.jpg')] bg-cover ">
+
+      <!-- About Section -->
+
+      <div class=" md:flex ">
+
+        <div data-aos="fade-down">
+          <img class="w-4/5  m-auto rounded-2xl shadow-xl shadow-slate-600" src="/images/about_img.jpg" alt="">
+        </div>
+
+        <div class="px-16 pt-12 md:px-8 md:pt-0">
+          <div class="text-4xl font-extrabold sm:text-6xl md:text-5xl lg:text-7xl " data-aos="fade-right">Vicky Jaiswal.
+          </div>
+          <div class="mt-8 text-xl font-[Poppins]" data-aos="fade-right">Hyderabad, India</div>
+          <p class="mt-8 lg:pr-12 font-[Poppins]" data-aos="fade-up">I am a freelancer with two years of experience in
+            website design
+            and development. Strong creativity and analytical skills. A self taught, multi-skilled men in the listed
+            domain. Believes in learning new technologies and upgrading skills. Team player with an eye for detail.</p>
+          <div class="mt-4 text-3xl space-x-1" data-aos="fade-right">
+            <a href="https://www.linkedin.com/in/vicky-jaiswal-129216246/" target="_blank" rel="noopener noreferrer"><i
+                class="fa-brands fa-linkedin"></i></a>
+            <a href="https://twitter.com/codes_Vicky?t=hjoDLFztCGL6gAf1ZALyUQ&s=08" target="_blank"
+              rel="noopener noreferrer"><i class="fa-brands fa-square-twitter"></i></a>
+            <a href="https://www.instagram.com/codes_vicky/" target="_blank" rel="noopener noreferrer"><i
+                class="fa-brands fa-instagram"></i></a>
+            <a href="https://github.com/Vicky6232Kumar" target="_blank" rel="noopener noreferrer"><i
+                class="fa-brands fa-square-github"></i></a>
+
+          </div>
+
+          <div class="mt-16 font-black text-lg cursor-pointer w-40 font-[Poppins]" data-aos="fade-left">
+            <a href="vicky_resume.pdf" target="_blank" rel="noopener noreferrer" download="Resume-Vicky">DOWNLOAD CV</a>
+          </div>
+
+          <div class="mt-6 h-1 w-28 bg-black" data-aos="fade-left"></div>
+        </div>
+
+      </div>
+
+      <!-- Project and All -->
+
+      <div class="mx-16 pt-20 sm:mx-24 lg:mx-16 lg:flex justify-between ">
+
+        <div class="bg-[#d9d5cffe] hover:shadow-2xl rounded-lg md:bg-[#00000025] lg:w-[30%] " data-aos="fade-up">
+          <div class="text-black pt-2 -ml-6 ">
+            <i class="fa-sharp fa-solid fa-gear bg-black text-white text-3xl p-3 rounded-full "></i>
+            <span class="text-4xl font-black ml-4">10+</span>
+          </div>
+          <div class="ml-12 pb-3">
+            Project Complete</div>
+        </div>
+
+        <div class="bg-[#d9d5cffe] hover:shadow-2xl rounded-lg md:bg-[#00000025] my-12 lg:my-0 lg:w-[30%] "
+          data-aos="fade-up">
+          <div class="text-black  pt-2 -ml-6">
+            <i class="fa-sharp fa-solid fa-lightbulb bg-black text-white text-3xl py-3  px-4  rounded-full"></i>
+            <span class="text-4xl font-black ml-4">2 Year+</span>
+          </div>
+          <div class="ml-12 pb-3">
+            Experience Web Design/Development</div>
+        </div>
+
+        <div class="bg-[#d9d5cffe] hover:shadow-2xl rounded-lg md:bg-[#00000025] lg:w-[30%] " data-aos="fade-up">
+          <div class="text-black pt-2 -ml-6">
+            <i class="fa-solid fa-paw bg-black text-white text-3xl p-3 rounded-full"></i>
+            <span class="text-4xl font-black ml-4">Get Intouch</span>
+          </div>
+          <div class="ml-12 pb-3">Ready for hire</div>
+        </div>
+      </div>
+
+
+      <!-- Education and Experince -->
+
+      <div class="px-8 pt-24 pb-16 md:pb-0 md:flex justify-evenly font-[Poppins] ">
+
+        <div class="md:w-[42%]">
+          <div
+            class="pt-8 pb-16 text-center text-2xl text-[#0000008e] font-bold  border-t-[1px] border-[#0000004d] md:text-black md:border-none md:text-start ">
+            Education</div>
+
+          <div class="flex " data-aos="fade-right">
+            <div
+              class="p-1 h-max bg-yellow-500 rounded-full  hover:shadow-xl text-center border-white border-[12px] sm:p-3 sm:border-[14px]  ">
+              <i class="fa-solid fa-1 text-white w-6 text-base "></i>
+            </div>
+            <div class=" mx-8">
+              <div class="text-xl sm:my-2">Graduation</div>
+              <div class="mb-3">2021-2025 | IIT Hyderabad</div>
+              <div>Pursuing the B.Tech degree in Civil Engineering. </div>
+            </div>
+          </div>
+
+          <div class="flex my-14" data-aos="fade-right">
+            <div
+              class="p-1 h-max bg-yellow-500 rounded-full  hover:shadow-xl text-center border-white border-[12px] sm:p-3 sm:border-[14px]  ">
+              <i class="fa-solid fa-2 text-white w-6 text-base "></i>
+            </div>
+            <div class=" mx-8">
+              <div class="text-xl sm:my-2">Secondary School</div>
+              <div class="mb-3">2018-2020 | SIS</div>
+              <div> Got Higher Secondary Certificate, HSC from Shivam International School with 91%.</div>
+            </div>
+          </div>
+
+          <div class="flex mb-24" data-aos="fade-right">
+            <div
+              class="p-1 h-max bg-yellow-500 rounded-full  hover:shadow-xl text-center border-white border-[12px] sm:p-3 sm:border-[14px]  ">
+              <i class="fa-solid fa-3 text-white w-6 text-base "></i>
+            </div>
+            <div class=" mx-8">
+              <div class="text-xl sm:my-2">Primary School</div>
+              <div class="mb-3">2021-2024 | KIPS</div>
+              <div>Got Secondary School Certificate, SSC from Kids International Public School with 75%.</div>
+            </div>
+          </div>
+        </div>
+
+        <div class=" md:w-[42%]">
+          <div
+            class="pt-8 pb-16 text-center text-2xl text-[#0000008e] font-bold border-t-[1px] border-[#0000004d] md:text-black md:border-none md:text-start">
+            Experience</div>
+
+          <div class="flex" data-aos="fade-right">
+            <div
+              class="p-1 h-max bg-yellow-500 rounded-full  hover:shadow-xl text-center border-white border-[12px] sm:p-3 sm:border-[14px]  ">
+              <i class="fa-solid fa-1 text-white w-6 text-base "></i>
+            </div>
+            <div class=" mx-8">
+              <div class="text-xl sm:my-2">ACM</div>
+              <div class="mb-3">2021-Present | IIT Hyderabad</div>
+              <div>Works as UX/UI manager and Website Developer.</div>
+            </div>
+          </div>
+
+          <div class="flex my-14" data-aos="fade-right">
+            <div
+              class="p-1 h-max bg-yellow-500 rounded-full  hover:shadow-xl text-center border-white border-[12px] sm:p-3 sm:border-[14px]  ">
+              <i class="fa-solid fa-2 text-white w-6 text-base "></i>
+            </div>
+            <div class=" mx-8">
+              <div class="text-xl sm:my-2">ACM-W</div>
+              <div class="mb-3">2021-Present | IIT Hyderabad</div>
+              <div>Works as Web Developer. Build on Front End Framework, Next Js. Team Project.</div>
+            </div>
+          </div>
+
+          <div class="flex" data-aos="fade-right">
+            <div
+              class="p-1 h-max bg-yellow-500 rounded-full  hover:shadow-xl text-center border-white border-[12px] sm:p-3 sm:border-[14px]  ">
+              <i class="fa-solid fa-3 text-white w-6 text-base "></i>
+            </div>
+            <div class=" mx-8">
+              <div class="text-xl sm:my-2">INTERNATIONAL RELATION</div>
+              <div class="mb-3">2021-Present | IIT Hyderabad</div>
+              <div>Work as Web designer and Developer. Build on Ruby. Awesome support form senior.</div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </section>
+
+    <!-- Skills Section -->
+
+    <section id="skills" class="py-32">
+
+      <div class="text-center">
+
+        <div class="mb-5 text-5xl font-extrabold ">My Work Skill</div>
+        <div class="mb-12 text-xl text-[#00000094] md:text-2xl font-[Poppins]">I offer the right solutions for your
+          digital business.
+        </div>
+        <div class="h-1 w-28 bg-black m-auto "></div>
+
+      </div>
+
+      <div class="flex flex-col items-center font-[Poppins]">
+
+        <div class=" my-8 w-10/12 md:w-3/5">
+          <div class="flex justify-start">
+            <div class="text-xl">HTML5</div>
+            <div class="absolute left-[83%] md:left-3/4 -z-10 font-bold">98%</div>
+          </div>
+          <div class="flex items-center">
+            <div class=" h-2 w-0 bg-yellow-500 rounded-xl relative -z-10 duration-1000 widthTransition "></div>
+            <div class="h-8 w-8 rounded-full border-yellow-500 border-[0.25rem] relative -z-10 -left-1"></div>
+          </div>
+        </div>
+
+        <div class=" my-8 w-10/12 md:w-3/5">
+          <div class="flex justify-start">
+            <div class="text-xl">JAVA SCRIPT</div>
+            <div class="absolute left-[62%] md:left-[60%] -z-10 font-bold">70%</div>
+          </div>
+          <div class="flex items-center">
+            <div class="h-2 w-0 bg-yellow-500  rounded-xl relative -z-10 duration-1000 widthTransition "></div>
+            <div class="h-8 w-8 rounded-full border-yellow-500 border-[0.25rem] relative -z-10 -left-1"></div>
+          </div>
+        </div>
+
+        <div class=" my-8 w-10/12 md:w-3/5">
+          <div class="flex justify-start">
+            <div class="text-xl ">REACT JS</div>
+            <div class="absolute left-[70%] md:left-[65%] -z-10 font-bold">75%</div>
+          </div>
+          <div class="flex items-center">
+            <div class="h-2 w-0 bg-yellow-500  rounded-xl relative -z-10 duration-1000 widthTransition  "></div>
+            <div class="h-8 w-8 rounded-full bg-white border-yellow-500 border-[0.25rem] relative -z-10 -left-1"></div>
+
+          </div>
+        </div>
+
+        <div class="mt-8 w-10/12 md:w-3/5">
+          <div class="flex justify-start">
+            <div class="text-xl ">NODE JS</div>
+            <div class="absolute left-[76%] md:left-[70%] -z-10 font-bold">80%</div>
+          </div>
+          <div class="flex items-center">
+            <div class="h-2 w-0 bg-yellow-500  rounded-xl relative -z-10 duration-1000 widthTransition  "></div>
+            <div class="h-8 w-8 rounded-full bg-white border-yellow-500 border-[0.25rem] relative -z-10 -left-1"></div>
+
+          </div>
+        </div>
+
+
+      </div>
+
+    </section>
+
+    <!-- Work Section -->
+
+    <div id="work" class="  bg-[#9c9c9c37] py-32 ">
+
+      <div class="text-center">
+        <div class=" text-5xl font-extrabold mb-5">My Work</div>
+        <div class=" text-2xl text-[#00000094] mb-12 font-[Poppins]">I offer the right solutions for your digital
+          business.</div>
+        <div class="h-1 w-28 bg-black m-auto "></div>
+      </div>
+
+      <div class="w-10/12 mt-20 mx-auto font-[Poppins] sm:w-1/2 lg:w-2/3  lg:flex items-center xl:w-1/2">
+
+        <div class="lg:w-1/2 ">
+          <div class="work_img relative mb-4 overflow-hidden">
+            <img class="duration-500" src="/images/work_1_img.png" alt="">
+            <div class="workImg_text  absolute top-0 h-full w-full pl-4 opacity-0 duration-500  ">
+              <div class="text-white pt-56 md:pt-64 pl-2 pb-2">ACM IITH</div>
+              <a href="https://iith.acm.org/about.html" class="bg-white p-2  rounded-sm" target="_blank">Web Development
+              </a>
+            </div>
+          </div>
+
+          <div class="work_img relative mb-4 overflow-hidden">
+            <img class="duration-500" src="/images/work_2_img.png" alt="">
+            <div class="workImg_text  absolute top-0 h-full w-full pl-4 opacity-0 duration-500  ">
+              <div class="text-white pt-56 md:pt-64 pl-2 pb-2">ACM-W IITH</div>
+              <a href="https://acm-w-rho.vercel.app/team" class="bg-white p-2  rounded-sm" target="_blank">Web
+                Development </a>
+
+            </div>
+          </div>
+        </div>
+
+        <div class="work_img relative overflow-hidden lg:ml-4 lg:w-1/2 ">
+          <img class="duration-500" src="/images/work_3_img.png" alt="">
+          <div class="workImg_text  absolute top-0 h-full w-full pl-4 opacity-0 duration-500 ">
+            <div class="text-white pt-56 md:pt-72 pl-2 pb-2">IR IITH</div>
+            <a href="https://ircell.netlify.app/" class="bg-white p-2  rounded-sm" target="_blank">Web Development </a>
+
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Services and Price Section -->
+
+    <section id="service" class="pt-32 pb-20">
+
+      <section>
+
+        <div class="text-center mb-24">
+          <div class="text-5xl font-extrabold mb-5">My Services</div>
+          <div class="text-2xl text-[#00000094] mb-12 font-[Poppins] ">get the best services and prices for your need.
+          </div>
+          <div class="h-1 w-28 bg-black m-auto"></div>
+        </div>
+
+        <div class="flex flex-col items-center font-[Poppins]">
+          <div class="sm:w-3/4 md:w-1/2 lg:w-10/12 lg:flex xl:w-3/4 text-center ">
+
+            <div
+              class=" h-64 m-6 p-4 border-b border-[#dedede] hover:shadow-2xl hover:shadow-black lg:m-0 lg:border-r lg:w-1/3">
+              <i class="fa-solid fa-laptop-code text-3xl my-6"></i>
+              <div class="text-xl">Web Develpment</div>
+              <div>Building, programming, and maintaining websites and web applications.</div>
+            </div>
+
+            <div class=" h-64 m-6 p-4 border-[#dedede] hover:shadow-2xl hover:shadow-black lg:m-0 border-b lg:w-1/3">
+              <i class="fa-solid fa-network-wired text-3xl my-6"></i>
+              <div class="text-xl">Illustration</div>
+              <div>Beautiful and creative design which can identify and communicate your the brand.</div>
+            </div>
+
+            <div
+              class=" h-64 m-6 p-4 border-b border-[#dedede] hover:shadow-2xl hover:shadow-black lg:m-0 lg:border-l lg:w-1/3">
+              <i class="fa-solid fa-pen-fancy text-3xl my-6"></i>
+              <div class="text-xl">Web Design</div>
+              <div>User experience design and interactive design.Quality of code.</div>
+            </div>
+
+          </div>
+          <div class="sm:w-3/4 md:w-1/2 lg:w-10/12 lg:flex xl:w-3/4 text-center">
+
+            <div
+              class="h-64 m-6 p-4  border-b border-[#dedede] hover:shadow-2xl hover:shadow-black lg:m-0 lg:border-b-0 lg:border-r lg:w-1/3">
+              <i class="fa-solid fa-lock text-3xl my-6"></i>
+              <div class="text-xl">Lorem</div>
+              <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, vitae?</div>
+            </div>
+
+            <div
+              class="h-64 m-6 p-4  border-b  border-[#dedede] hover:shadow-2xl hover:shadow-black lg:m-0 lg:border-b-0 lg:w-1/3">
+              <i class="fa-solid fa-lock text-3xl my-6"></i>
+              <div class="text-xl">Lorem</div>
+              <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, vitae?</div>
+            </div>
+
+            <div
+              class="h-64 m-6 p-4  border-b  border-[#dedede] hover:shadow-2xl hover:shadow-black lg:m-0 lg:border-b-0 lg:border-l lg:w-1/3">
+              <i class="fa-solid fa-lock text-3xl my-6"></i>
+              <div class="text-xl">Lorem</div>
+              <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, vitae?</div>
+            </div>
+
+          </div>
+        </div>
+
+      </section>
+
+      <!-- Price Section -->
+
+      <section>
+
+        <div class="text-center my-16  ">
+          <div class=" mb-6  text-5xl font-extrabold ">My Price</div>
+          <div class="text-2xl text-[#00000094] mb-12 font-[Poppins] ">get the best prices for your need.</div>
+          <div class="h-1 w-28 bg-black m-auto"></div>
+        </div>
+
+        <div class="mx-auto lg:flex xl:w-10/12 font-[Poppins] ">
+
+          <div class=" p-4 m-8 shadow-lg rounded-xl hover:shadow-2xl hover:shadow-black sm:w-96 sm:mx-auto  ">
+            <div class="text-2xl font-extrabold">Basic</div>
+            <div class="mt-10 text-6xl font-extrabold ">$5</div>
+            <div class="mt-4 text-xl">Basic website with simple landing page.</div>
+            <ul class="list-disc py-10 pl-10">
+              <li>Functional Website</li>
+              <li>2 Days Delivery</li>
+              <li>4 Revision</li>
+              <li>1 Page </li>
+              <li>Responsive Design</li>
+              <li>SEO</li>
+            </ul>
+            <div class="m-auto w-11/12 h-[1.5px] bg-black"></div>
+            <div
+              class="bg-black my-10 p-4 text-white w-36 m-auto text-center text-lg rounded-full cursor-pointer hover:bg-[#FEBA00] hover:shadow-2xl hover:shadow-[#feba00] duration-300">
+              GET STARTED</div>
+          </div>
+
+          <div class=" p-4 m-8 shadow-lg rounded-xl hover:shadow-2xl hover:shadow-black sm:w-96 sm:mx-auto">
+            <div class="text-2xl font-extrabold">Standard</div>
+            <div class="text-6xl font-extrabold mt-10">$15</div>
+            <div class="mt-4 text-xl">Beautiful landing page and simple animation.</div>
+            <ul class="list-disc py-10 pl-10">
+              <li>Functional Website</li>
+              <li>5 Days Delivery</li>
+              <li>10 Revision</li>
+              <li>2 Page </li>
+              <li>Responsive Design</li>
+              <li>SEO</li>
+            </ul>
+            <div class="w-11/12 h-[1.5px] bg-black m-auto"></div>
+            <div
+              class="bg-black my-10 p-4 text-white w-36 m-auto text-center text-lg rounded-full cursor-pointer hover:bg-[#FEBA00] hover:shadow-2xl hover:shadow-[#feba00] duration-300 ">
+              GET STARTED</div>
+          </div>
+
+          <div class=" p-4 m-8 shadow-lg rounded-xl hover:shadow-2xl hover:shadow-black sm:w-96 sm:mx-auto">
+            <div class="text-2xl font-extrabold">Premium</div>
+            <div class="text-6xl font-extrabold mt-10">$50</div>
+            <div class="mt-4 text-xl">Beautiful landing pages and full animated pages with backend.</div>
+            <ul class="list-disc py-10 pl-10">
+              <li>Functional Website</li>
+              <li>10 Days Delivery</li>
+              <li>Unlimted Revision</li>
+              <li>4 Page </li>
+              <li>Responsive Design</li>
+              <li>SEO</li>
+            </ul>
+            <div class="w-11/12 h-[1.5px] bg-black m-auto"></div>
+            <div
+              class="bg-black my-10 p-4 text-white w-36 m-auto text-center text-lg rounded-full cursor-pointer hover:bg-[#FEBA00] hover:shadow-2xl hover:shadow-[#feba00] duration-300">
+              GET STARTED</div>
+          </div>
+
+        </div>
+
+      </section>
+
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contacts" class="bg-[#F9F9F9] font-[Poppins] px-8 py-28 sm:px-10 md:px-28 lg:px-10 xl:px-44 ">
+
+      <div class="mb-20 ">
+        <div class="text-2xl">CONTACT</div>
+        <div class="py-6 text-5xl font-black lg:text-7xl lg:w-3/4">Let's turn your idea into greater product.</div>
+        <div class="mt-6 h-2 w-56  bg-black"></div>
+      </div>
+
+      <div class="lg:flex">
+
+        <!-- Left Section -->
+
+        <div class="text-xl lg:w-1/3 ">
+          <div class="text-xl font-extrabold">WHERE TO FIND</div>
+          <div class="mt-4 ">Saidpur Ganesh</div>
+          <div class="mt-1">Hajipur, Vaishali</div>
+          <div class="mt-1">844102, Bihar</div>
+          <div class="mt-4 w-20 h-[.5px] bg-black"></div>
+          <div class="mt-6 text-xl"><a href="mailto:vickyjaiswal6232@gmail.com">vickyjaiswal6232@gmail.com</a> </div>
+          <div class="mt-1 text-lg"><a href="tel:6205316232">+(91) 6205316232</a></div>
+
+        </div>
+
+        <!-- Right Section -->
+
+        <div class="mt-12 lg:mt-0 lg:w-2/3 ">
+          <div class="mb-16 text-xl font-extrabold">KEEP UP TO DATE</div>
+          <div class="text-3xl space-x-1">
+            <a href="https://www.linkedin.com/in/vicky-jaiswal-129216246/" target="_blank" rel="noopener noreferrer"><i
+                class="fa-brands fa-linkedin"></i></a>
+            <a href="https://twitter.com/codes_Vicky?t=hjoDLFztCGL6gAf1ZALyUQ&s=08" target="_blank"
+              rel="noopener noreferrer"><i class="fa-brands fa-square-twitter"></i></a>
+            <a href="https://www.instagram.com/codes_vicky/" target="_blank" rel="noopener noreferrer"><i
+                class="fa-brands fa-instagram"></i></a>
+            <a href="https://github.com/Vicky6232Kumar" target="_blank" rel="noopener noreferrer"><i
+                class="fa-brands fa-square-github"></i></a>
+          </div>
+          <div class="h-24 flex mt-8 justify-center bg-black">
+            <a href="mailto:vickyjaiswal6232@gmail.com" class="flex items-center bg-[#c0c0c0] w-3/4 ">
+              <div class="pl-6 font-bold text-[#5f5f5f]">EMAIL</div>
+            </a>
+            <button class=" h-full font-bold w-1/4 bg-[#8d8d8d] text-white">MESSAGE</button>
+          </div>
+        </div>
+
+      </div>
+
+    </section>
+    </div>
+
+
+    <script src="/script.js" type="module"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+</body>
+
+</html>
