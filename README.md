@@ -1,2 +1,2 @@
 # Personal-Website
-Checkout- vickyjaiswal.netlify.app
+Checkout- https://vickyjaiswal.netlify.app
