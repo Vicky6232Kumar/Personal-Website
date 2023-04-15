@@ -3,6 +3,19 @@
 @tailwind utilities;
 
 
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background-color: #ec4899;
+  /* border-radius: 10px 5px; */
+  border-bottom-left-radius: 50px;
+  border-top-left-radius: 50px;
+}
+
 .categoryShown{
     transform: translateX(0);
 }
