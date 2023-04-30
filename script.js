@@ -9,8 +9,11 @@ $(document).click(function (event) {
 
 // Pre loader
 const spinner = document.getElementById("preloader");
+const afterLoader = document.getElementById("afterLoader")
 window.addEventListener('load', function(){
     spinner.style.display = "none";
+    afterLoader.style.display = "block";
+
 })
 
 // Navbar to hamberger
